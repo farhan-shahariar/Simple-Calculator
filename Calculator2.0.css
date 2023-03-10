@@ -1,0 +1,52 @@
+.CALC {
+    margin: 50 auto;
+    width: 500px;
+    height: 500px;
+    background-color: #008b8b;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.container {
+    margin: 60px;
+	background-color: #f5fffa;
+    
+}
+
+input[type="text"] {
+    width: 100%;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: right;
+}
+.Clear {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 30px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 30px;
+}
+
+button {
+    background-color: #e0ffff;
+    color: #000;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+    button:hover {
+        background-color: #ff9999;
+        color: #fff;
+    }
